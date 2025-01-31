@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -23,12 +24,16 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.20",
+    "@cloudflare/next-on-pages": "^1.6.3",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "webpack": "^5.88.2",
     "workbox-webpack-plugin": "^7.0.0",
     "clean-webpack-plugin": "^4.0.0",
     "terser-webpack-plugin": "^5.3.9"
+  },
+  "installConfig": {
+    "pnp": false
   },
   "resolutions": {
     "react": "18.2.0",
