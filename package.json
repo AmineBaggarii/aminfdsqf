@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "version": "0.1.1",
+  "name": "animated-portfolio",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,31 +12,24 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "aos": "^2.3.4",
-    "bootstrap": "^5.3.3",
+    "bootstrap": "^5.3.1",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-animated-cursor": "^2.11.2",
-    "react-scroll-parallax": "^3.4.5",
-    "react-spring": "^9.7.5",
-    "sass": "^1.83.4",
-    "use-dencrypt-effect": "^2.0.0"
+    "react-animated-cursor": "^2.8.1",
+    "react-scroll-parallax": "^3.4.2",
+    "react-spring": "^9.7.2",
+    "sass": "^1.66.1",
+    "use-dencrypt-effect": "^1.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.20",
     "@cloudflare/next-on-pages": "^1.6.3",
+    "wrangler": "^3.0.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "webpack": "^5.88.2",
     "workbox-webpack-plugin": "^7.0.0",
     "clean-webpack-plugin": "^4.0.0",
     "terser-webpack-plugin": "^5.3.9"
-  },
-  "installConfig": {
-    "pnp": false
-  },
-  "resolutions": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
   }
 }
